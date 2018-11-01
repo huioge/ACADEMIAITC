@@ -1,4 +1,4 @@
-/* //timeline */
+
 .main-timeline {
     position: relative
 }
@@ -348,8 +348,6 @@
         left: 65px
     }
 }
-
-/* //tiimeline */
 
 @media screen and (max-width: 991px) {
     .main-timeline .timeline-content:after {

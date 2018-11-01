@@ -190,43 +190,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light.navbar-fixed-top.top-nav-coll
 }
 
 /* menu appearance*/
-#menu {
-	position: absolute;
-	right: -68px;
-	top: 53px;
-	color: #999;
-	width: 185px;
-	padding: 10px;
-	margin: auto;
-	text-align: center;
-	font-family: 'Montserrat', sans-serif;
-	border-radius: 4px;
-	background: #fff;
-	box-shadow: 0 1px 8px rgba(0, 0, 0, 0.05);
-	opacity: 0;
-	visibility: hidden;
-	transition: opacity .4s;
-}
 
-#menu:after {
-	position: absolute;
-	top: -15px;
-	left: 80px;
-	content: "";
-	display: block;
-	border-left: 15px solid transparent;
-	border-right: 15px solid transparent;
-	border-bottom: 20px solid #fff;
-}
-
-#menu li a {
-	text-transform: uppercase;
-	font-size: 12px;
-	display: block;
-	margin: 13px;
-	font-weight: 600;
-	color: #000;
-}
 
 /* banner */
 .form-control:focus {
@@ -815,8 +779,6 @@ button.btn.btn-agile.btn-block.w-25 {
 	font-size: 1.5em;
 }
 
-/* //footer */
-/* single */
 .single-left h5 a {
     margin: 2em 0 1em;
     font-weight: 700;
@@ -842,8 +804,6 @@ button.btn.btn-agile.btn-block.w-25 {
 	margin: 1em 0 2em;
 }
 
-/* //single */
-/* -- Responsive code -- */
 @media screen and (max-width: 1920px) {
 	.layer-agileits-right {
 		padding: 10em 6em 1.8em;
@@ -865,6 +825,7 @@ button.btn.btn-agile.btn-block.w-25 {
 		padding: 10vw 0 0;
 	}
 }
+
 @media screen and (max-width: 1280px) {
 
 	.layer-agileits1,
@@ -900,6 +861,7 @@ button.btn.btn-agile.btn-block.w-25 {
 		font-size: 1em;
 	}
 }
+
 @media screen and (max-width: 991px) {
 	.layer-agileits-right img {
 		padding-top: 1em;
@@ -1056,12 +1018,12 @@ button.btn.btn-agile.btn-block.w-25 {
 
 @media screen and (max-width: 414px) {
 	ul.list-agileits.d-flex {
-		display: block !important;
+		display: block ;
 		line-height: 2;
 	}
 
 	ul.list-agileits li a {
-		padding-left: 0 !important;
+		padding-left: 0 ;
 	}
 
 	ul.list-agileits {
@@ -1117,7 +1079,7 @@ button.btn.btn-agile.btn-block.w-25 {
 
 @media screen and (max-width: 375px) {
 	.social-icons.d-flex {
-		display: block !important;
+		display: block;
 	}
 
 	ul.social-iconsv2.agileinfo {
@@ -1145,7 +1107,7 @@ button.btn.btn-agile.btn-block.w-25 {
 	}
 
 	.ab-grid-left {
-		padding-left: 0 !important;
+		padding-left: 0;
 	}
 
 	.layer-agileits-right {
@@ -1167,5 +1129,3 @@ button.btn.btn-agile.btn-block.w-25 {
 		font-size: 0.95em;
 	}
 }
-
-/* -- //Responsive code -- */
