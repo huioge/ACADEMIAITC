@@ -1,3 +1,10 @@
+/*-- tamaño html --*/
+
+html{
+     width:100%;
+    overflow-x:hidden;
+}
+
 /*-- menu --*/
 
 	.nav{
@@ -132,6 +139,8 @@ p.snd {
 
 }
 
+/*-- media queries sobre nosotros --*/
+
 @media (max-width: 600px) {
 div.caja-sn{
 	display: -webkit-box;
@@ -191,20 +200,31 @@ div.caja-cr{
 	padding-top: 3rem;
 }
 
+/*-- Cursos francia--*/
 
+img.francia{
+	width:25%;
+	height:25%;
+	margin-bottom:3%;
+}
 
+/*-- Cursos francia--*/
 
+img.alemania{
+	width:25%;
+	height:25%;
+	margin-left:6%;
+	margin-bottom:3%;
+}
 
+/*-- Cursos USA--*/
 
-
-
-
-
-
-
-
-
-
+img.usa{
+	width:25%;
+	height:25%;
+	margin-left:6%;
+	margin-bottom:3%;
+}
 
 /*-- Pie de pagina --*/
 
