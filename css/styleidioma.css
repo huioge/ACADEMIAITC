@@ -133,36 +133,9 @@ h4.backbox{
 
 /*-- sobre nosotros --*/
 
-div.caja-sn{
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
-	margin-right: -15px;
-	margin-left: -15px;
-	padding-top: 3rem;
-}
-
 div.sn {
 	text-align:center; 
 	font-size:200%; 
-}
-
-div.sn1 {
-	margin-left: 15%; 
-}
-
-div.sn2 {
-	margin-left: 10%; 
-}
-
-div.sn3 {
-	margin-left: 11.5%; 
-}
-
-div.sn4 {
-	margin-left: 12%; 
 }
 
 p.snd {
@@ -172,102 +145,15 @@ p.snd {
 	
 }
 
-/*-- video --*/
-
-.video{
-	width: 40%;
-	height: 30%;
-	margin: 0 auto;
-	margin-left:30%;
-}
-
-/*-- media queries sobre nosotros --*/
-
-@media (max-width: 600px) {
-div.caja-sn{
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
-	margin-right: -15px;
-	margin-left: -15px;
-	padding-top: 3rem;
-}
-
-div.sn {
+div.hr {
 	text-align:center; 
 	font-size:200%; 
 }
 
-div.sn1 {
-	margin-left: 15%; 
-}
-
-div.sn2 {
-	margin-left: 10%; 
-}
-
-div.sn3 {
-	margin-left: 11.5%; 
-}
-
-div.sn4 {
-	margin-left: 12%; 
-}
-
-p.snd {
-	text-align:center; 
-	font-size:100%; 
-	font-family:calibri light;
-	
-}
-}
-
-/*-- Cursos --*/
-
-div.cr {
+div.mtr {
 	text-align:center; 
 	font-size:200%; 
 }
-
-div.caja-cr{
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
-	margin-right: -15px;
-	margin-left: -15px;
-	padding-top: 3rem;
-}
-
-/*-- Cursos francia--*/
-
-img.francia{
-	width:25%;
-	height:25%;
-	margin-bottom:3%;
-}
-
-/*-- Cursos francia--*/
-
-img.alemania{
-	width:25%;
-	height:25%;
-	margin-left:6%;
-	margin-bottom:3%;
-}
-
-/*-- Cursos USA--*/
-
-img.usa{
-	width:25%;
-	height:25%;
-	margin-left:6%;
-	margin-bottom:3%;
-}
-
 /*-- Pie de pagina --*/
 
 footer {
