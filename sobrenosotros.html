@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ES">
+<head>
+    <title>Home-Academia ITC</title>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="images/favicon.ico"> 
+	<link href="css/stylesobre.css" type="text/css" rel="stylesheet" media="all">
+</head>
+
+<body>
+
+    <!-- menu -->
+	
+	<header>
+
+		<ul class="nav blue">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="sobrenosotros.html">Conócenos</a></li>
+			<li><a href="idioma.html">Cursos</a></li>
+			<li><a href="matriculacion.html">Matriculacion</a></li>
+			<li><a href="contacto.html">Contactanos</a></li>
+		</ul>
+
+	</header>
+
+    <!-- portada -->
+
+    <nav class="fondo">
+
+	<!-- hora -->
+
+	<h3 id="tiempo" class="tiempo1"></h3>
+
+	<script>
+		function mytime(){
+        var a = new Date();
+        var b = a.toLocaleTimeString();
+        document.getElementById("tiempo").innerHTML ="&nbsp"+b;
+        }
+		setInterval(function() {mytime()},1000);
+	</script>
+	</nav> 
+	
+	 <h4 class="caja">CONOCENOS</h4>
+	 
+    <!-- sobre nosotros -->
+	
+	<article>
+		<p class="sn" id="sobre nosotros"><b>Sobre Nosotros</p></b>
+		
+		<p class="snd">Somos una academia especializada en la enseñanza de inglés y otros idiomas
+						reconocidos internacionalmente.Ofreciendo una amplia gama de servicios lingüísticos a sectores muy diferendes de la comunidad.
+						Con nosotros podrás estudiar inglés, francés, alemán… Sabemos que conocer un idioma es indispensable en estos tiempos, 
+						pero también sabemos que aprenderlo con calidad marca la diferencia.
+		</p>
+		<br>
+
+	</article>	
+			
+    <!-- video -->
+	
+	<video class="video" src="images/academia.mp4" autoplay controls ></video>
+		
+    <!-- caja -->
+	
+	<section class="caja-sn">
+	
+		<div class="sn1">
+			<img src="images/s1.png" alt="">
+			<h4><br>24 años de experiencia en enseñanza</h4>
+		</div>
+
+		<div class="sn2">
+			<img src="images/s2.png" alt="">
+			<h4><br>Mayor velocidad de aprendizaje</h4>
+		</div>
+
+		<div class="sn3">
+			<img src="images/s3.png" alt="">
+			<h4><br>Los Mejores profesores</h4>
+		</div>
+		
+		<div class="sn4">
+			<img src="images/s4.png" alt="">
+			<h4><br>Nº reducido de alumnos por clase</h4>
+		</div>
+		
+		<div class="sn5">
+			<img src="images/s5.png" alt="">
+			<h4><br>Óptima calidad y comunicación oral</h4>
+		</div>
+		
+		<div class="sn6">
+			<img src="images/s6.png" alt="">
+			<h4><br>Horarios Flexibles</h4>
+		</div>
+		
+	</section>
+
+    <!-- Cursos -->
+
+	<aside class="cr">
+		<p id="Cursos"><b><br>Historia</p></b>
+	</aside>
+	
+		<p class="snd1">Somos una academia especializada en la enseñanza de inglés y otros idiomas
+						reconocidos internacionalmente.Ofreciendo una amplia gama de servicios lingüísticos a sectores muy diferendes de la comunidad.
+						Con nosotros podrás estudiar inglés, francés, alemán… Sabemos que conocer un idioma es indispensable en estos tiempos, 
+						pero también sabemos que aprenderlo con calidad marca la diferencia.
+						</p>
+
+	
+	<!-- Pie de pagina	-->
+		
+    <footer>
+
+	<p class="mr">ACADEMIA ITC™ es una marca comercial y todos los derechos están registrados.</p>
+	
+	<a href="#" id="toTop">✈UP</a>
+	</footer>
+	
+</body>
+</html>

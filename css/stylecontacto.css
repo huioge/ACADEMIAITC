@@ -1,0 +1,221 @@
+/*-- tamaño html --*/
+
+html{
+     width:100%;
+    overflow-x:hidden;
+}
+
+/*-- menu --*/
+
+	.nav{
+	width:97.5%;
+	height: 50px;
+	font:bold 30px Arial;
+	text-align:center;
+	margin:0%;
+	border-radius: 10px;
+	}
+	.nav a{
+	display: inline-block;
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+	}
+	.nav a:hover{
+	-webkit-transform:rotate(10deg);
+	-moz-transform:rotate(10deg);
+	-o-transform:rotate(10deg);
+	-ms-transform:rotate(10deg);
+	transform:rotate(10deg);
+	}
+
+	.blue{
+	background: #36b7e5;
+	box-shadow: 0 7px 0 #3595b8;
+}
+
+	.nav li{
+	position:relative;
+	display:inline-block;
+	padding:0 60px;
+	font-size:15px;
+	text-shadow:1px 2px 4px rgba(0,0,0,.5);
+	list-style: none outside none;
+	}
+	
+	.nav a,
+	.nav a:hover{
+	color:#fff;
+	text-decoration: none;
+ }
+
+	/*-- media queries menu --*/
+	
+@media only screen and (max-width: 1200px){
+	.nav li{
+	position:relative;
+	display:inline-block;
+	padding:0 20px;
+	font-size:15px;
+	text-shadow:1px 2px 4px rgba(0,0,0,.5);
+	list-style: none outside none;
+	}
+}
+ 
+@media only screen and (max-width: 750px){
+	.nav li{
+	position:relative;
+	display:inline-block;
+	padding:0 5px;
+	font-size:15px;
+	text-shadow:1px 2px 4px rgba(0,0,0,.5);
+	list-style: none outside none;
+	}
+}
+ 
+@media only screen and (max-width: 550px){
+	.nav li{
+	position:relative;
+	display:inline-block;
+	padding:0 10px;
+	font-size:15px;
+	text-shadow:1px 2px 4px rgba(0,0,0,.5);
+	list-style: none outside none;
+	}
+	.nav{
+	width:97.5%;
+	height: 60%;
+	font:bold 30px Arial;
+	text-align:center;
+	margin:0%;
+	border-radius: 10px;
+}
+}
+
+/*-- boton para subir hasta arriba --*/
+
+#toTop {
+    background-color: #333;
+    border-radius: 4px 4px 0 0;
+    bottom: 0;
+    color: #fff;
+    display: block;
+    height: 3%;
+    position: fixed;
+    right: 2%;
+    text-align: center;
+    text-transform: uppercase;
+    width: 2%;
+    opacity: .9;
+    z-index: 100000;
+    transition: all 1.2s ease-in-out 1s;
+}
+/*-- marca --*/
+
+p.mr {
+	text-align:center;
+	background-color:#00FFF3;
+	width:90%;
+	margin-left:5%;
+	height:20%;
+}
+
+img.titulo{
+	width:60%;
+	height:150px;
+	margin-top:1%;
+	margin-left:21%;
+}
+
+/*-- contacto --*/
+
+div.ct1 {
+	text-align:center; 
+}
+
+/*-- email --*/
+
+span.email {
+	color:black; 
+	font-size:200%;
+}
+
+p.email1 {
+	color:00FFF3; 
+	font-size:150%;
+}
+
+/*-- telefono --*/
+
+span.tel {
+	color:black; 
+	font-size:200%;
+}
+
+p.tel1 {
+	color:00FFF3; 
+	font-size:150%;
+}
+
+/*-- logo --*/
+
+img.ins {
+	width:3%; 
+	margin-left:39.5%;
+}
+
+img.yt {
+	width:3%; 
+	margin-left:6%;
+}
+
+img.tw {
+	width:3%; 
+	margin-left:6%;
+}
+
+/*-- google-maps --*/
+
+img.titulo1 {
+	width:50%; 
+	margin-left:25%;
+	margin-top:4%;
+	margin-bottom:2%;
+}
+
+.google-maps {
+  position: relative;
+  padding-bottom:40%;
+  overflow: hidden;
+
+
+}
+.google-maps iframe {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  margin-left:5%;
+}
+
+/*-- media queries google-maps --*/
+
+@media (max-width: 500px) {
+.google-maps {
+  position: relative;
+  padding-bottom:40%;
+  overflow: hidden;
+
+
+}
+.google-maps iframe {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+}
+
+
+
+
+

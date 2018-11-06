@@ -133,7 +133,7 @@ h4.caja {
     font-family: 'Montserrat', sans-serif;
     text-transform: capitalize;
     font-size: 100%;
-    top: 55%;
+    top: 53%;
     font-weight: bold;
     color: #ffeb3b;
     padding: 0.0625rem;
@@ -185,18 +185,46 @@ h4.caja {
 }
 }
 
+/*-- sobre nosotros --*/
+
+
 p.sn {
 	text-align:center; 
 	font-size:200%; 
 }
 
-p.snd {
+.ig{
+	font-family:Arial;
+	font-size:120%;
+	text-align:left;
+	margin-right:5%;
+	margin-left:5%;
+}
+
+.cc{
 	font-family:Arial;
 	font-size:120%;
 	text-align:justify;
 	margin-right:5%;
 	margin-left:5%;
 }
+
+.baja{
+	font-family:Arial;
+	font-size:120%;
+	text-align:justify;
+	margin-right:5%;
+	margin-left:5%;
+}
+
+.pm{
+	font-family:Arial;
+	font-size:120%;
+	text-align:justify;
+	margin-right:5%;
+	margin-left:5%;
+}
+
 /*-- Pie de pagina --*/
 
 footer {
@@ -244,8 +272,6 @@ p.mr {
 	text-align:center; 
 }
 
-/*-- boton para subir hasta arriba --*/
-
 #toTop {
     background-color: #333;
     border-radius: 4px 4px 0 0;
@@ -262,132 +288,3 @@ p.mr {
     z-index: 100000;
     transition: all 1.2s ease-in-out 1s;
 }
-
-/*-- tabla ingles --*/
-
-.tb {
-	border-collapse:collapse;
-	border-spacing:0;
-	border-width:1px;
-	border-style:solid;
-	border-color:#999;
-	table-layout:fixed;
-	margin-left:20%;
-	width: 60%;
-}
-.tb td{
-	font-family:Arial, sans-serif;
-	font-size:14px;
-	padding:9px 20px;
-	border-style:solid;
-	border-width:0px;
-	overflow:hidden;
-	word-break:normal;
-	border-color:#999;
-	color:#444;
-	background-color:#F7FDFA;
-}
-.tb th{
-	font-family:Arial, sans-serif;
-	font-size:14px;
-	font-weight:normal;
-	padding:9px 20px;
-	border-style:solid;
-	border-width:0px;
-	overflow:hidden;
-	word-break:normal;
-	border-color:#999;
-	color:#fff;
-	background-color:#26ADE4;
-}
-.tb .ds{
-	font-size:15px;
-	background-color:#d1fffd;
-	border-color:inherit;
-	text-align:center;
-}
-.tb .titulo{
-	font-size:16px;
-	border-color:inherit;
-	text-align:center;
-	vertical-align:top;
-}
-.tb .nivel{
-	font-size:16px;
-	background-color:#96fffb;
-	border-color:inherit;
-	text-align:center;
-	vertical-align:top;
-}
-
-/*-- media queries tabla ingles --*/
-
-@media (max-width: 1400px){
-
-.tb {
-	border-collapse:collapse;
-	border-spacing:0;
-	border-width:1px;
-	border-style:solid;
-	border-color:#999;
-	table-layout:fixed;
-	margin-left:10%;
-	width: 80%;
-}
-.tb td{
-	font-family:Arial, sans-serif;
-	font-size:14px;
-	padding:9px 20px;
-	border-style:solid;
-	border-width:0px;
-	overflow:hidden;
-	word-break:normal;
-	border-color:#999;
-	color:#444;
-	background-color:#F7FDFA;
-}
-.tb th{
-	font-family:Arial, sans-serif;
-	font-size:14px;
-	font-weight:normal;
-	padding:9px 20px;
-	border-style:solid;
-	border-width:0px;
-	overflow:hidden;
-	word-break:normal;
-	border-color:#999;
-	color:#fff;
-	background-color:#26ADE4;
-}
-.tb .ds{
-	font-size:15px;
-	background-color:#d1fffd;
-	border-color:inherit;
-	text-align:center;
-}
-.tb .titulo{
-	font-size:16px;
-	border-color:inherit;
-	text-align:center;
-	vertical-align:top;
-}
-.tb .nivel{
-	font-size:16px;
-	background-color:#96fffb;
-	border-color:inherit;
-	text-align:center;
-	vertical-align:top;
-}
-}
-
-
-
-
-
-
-
-
-
-
-
-

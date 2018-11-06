@@ -133,7 +133,7 @@ h4.caja {
     font-family: 'Montserrat', sans-serif;
     text-transform: capitalize;
     font-size: 100%;
-    top: 55%;
+    top: 53%;
     font-weight: bold;
     color: #ffeb3b;
     padding: 0.0625rem;
@@ -185,24 +185,327 @@ h4.caja {
 }
 }
 
+/*-- sobre nosotros --*/
+
+section.caja-sn{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding-top: 3%;
+}
+
 p.sn {
 	text-align:center; 
 	font-size:200%; 
 }
 
-p.snd {
-	font-family:Arial;
-	font-size:120%;
-	text-align:justify;
-	margin-right:5%;
-	margin-left:5%;
+div.sn1 {
+	margin-left: 30%; 
 }
+
+div.sn2 {
+	margin-left: 10%; 
+}
+
+div.sn3 {
+	margin-left: 10%; 
+}
+
+div.sn4 {
+	margin-left: 25%; 
+}
+
+div.sn5 {
+	margin-left: 20%; 
+}
+
+div.sn6 {
+	margin-left: 8.5%; 
+}
+p.snd	{
+	text-align:center; 
+	font-size:180%; 
+	font-family:calibri light;
+	margin-right:20%;
+	margin-left:20%;
+}
+
+p.snd1 {
+	text-align:justify; 
+	font-size:150%; 
+	font-family:calibri light;
+	margin-right:15%;
+	margin-left:19%;
+}
+
+/*--media queries sobre nosotros --*/
+
+@media (max-width:1240px){
+section.caja-sn{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding-top: 3%;
+}
+
+p.sn {
+	text-align:center; 
+	font-size:200%; 
+}
+
+div.sn1 {
+	margin-left:15%; 
+}
+div.sn2 {
+	margin-left:19%; 
+}
+div.sn3 {
+	margin-left:15%; 
+}
+
+div.sn4 {
+	margin-left:26%; 
+}
+
+div.sn5 {
+	margin-left:15%; 
+}
+
+div.sn6 {
+	margin-left:18%; 
+}
+p.snd {
+	text-align:center; 
+	font-size:100%; 
+	font-family:calibri light;
+}
+}
+
+@media (min-width:1300px){
+section.caja-sn{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding-top: 3%;
+}
+
+p.sn {
+	text-align:center; 
+	font-size:200%; 
+}
+
+div.sn1 {
+	margin-left:13%; 
+}
+div.sn2 {
+	margin-left:19%; 
+}
+div.sn3 {
+	margin-left:19%; 
+}
+
+div.sn4 {
+	margin-left:13%; 
+}
+
+div.sn5 {
+	margin-left:20%; 
+}
+
+div.sn6 {
+	margin-left:17.5%; 
+}
+p.snd {
+	text-align:center; 
+	font-size:100%; 
+	font-family:calibri light;
+}
+}
+
+@media (min-width:1245px){
+section.caja-sn{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding-top: 3%;
+}
+
+p.sn {
+	text-align:center; 
+	font-size:200%; 
+}
+
+div.sn1 {
+	margin-left:9%; 
+}
+div.sn2 {
+	margin-left:19%; 
+}
+div.sn3 {
+	margin-left:15%; 
+}
+
+div.sn4 {
+	margin-left:9%; 
+}
+
+div.sn5 {
+	margin-left:20%; 
+}
+
+div.sn6 {
+	margin-left:13%; 
+}
+p.snd {
+	text-align:center; 
+	font-size:100%; 
+	font-family:calibri light;
+}
+}
+
+@media (max-width:760px){
+section.caja-sn{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding-top: 3%;
+}
+
+p.sn {
+	text-align:center; 
+	font-size:200%; 
+}
+
+div.sn1 {
+	margin-left:25%; 
+}
+div.sn2 {
+	margin-left:25%; 
+}
+div.sn3 {
+	margin-left:25%; 
+}
+
+div.sn4 {
+	margin-left:25%; 
+}
+
+div.sn5 {
+	margin-left:25%; 
+}
+
+div.sn6 {
+	margin-left:25%; 
+}
+p.snd {
+	text-align:center; 
+	font-size:100%; 
+	font-family:calibri light;
+}
+}
+
+@media (min-width:1600px){
+section.caja-sn{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding-top: 3%;
+}
+
+p.sn {
+	text-align:center; 
+	font-size:200%; 
+}
+
+div.sn1 {
+	margin-left:20%; 
+}
+div.sn2 {
+	margin-left:15%; 
+}
+div.sn3 {
+	margin-left:15%; 
+}
+
+div.sn4 {
+	margin-left:20%; 
+}
+
+div.sn5 {
+	margin-left:16%; 
+}
+
+div.sn6 {
+	margin-left:13.5%; 
+}
+p.snd {
+	text-align:center; 
+	font-size:100%; 
+	font-family:calibri light;
+}
+}
+
+/*-- video --*/
+
+.video{
+	width: 40%;
+	height: 30%;
+	margin: 0 auto;
+	margin-left:30%;
+}
+
+/*-- Cursos --*/
+
+aside.cr {
+	text-align:center; 
+	font-size:200%; 
+}
+
+
+
+/*-- Cursos francia--*/
+
+img.francia{
+	width:25%;
+	height:25%;
+	margin-bottom:3%;
+}
+
+/*-- Cursos francia--*/
+
+img.alemania{
+	width:25%;
+	height:25%;
+	margin-left:6%;
+	margin-bottom:3%;
+}
+
+/*-- Cursos USA--*/
+
+img.usa{
+	width:25%;
+	height:25%;
+	margin-left:6%;
+	margin-bottom:3%;
+}
+
 /*-- Pie de pagina --*/
 
 footer {
 	padding:0%;
 	background: #00FFF3;
-
 }
 
 div.ft {
@@ -244,6 +547,12 @@ p.mr {
 	text-align:center; 
 }
 
+ul.ig{
+	font-family:Arial;
+	font-size:200%;
+	text-align:center;
+}
+
 /*-- boton para subir hasta arriba --*/
 
 #toTop {
@@ -262,132 +571,5 @@ p.mr {
     z-index: 100000;
     transition: all 1.2s ease-in-out 1s;
 }
-
-/*-- tabla ingles --*/
-
-.tb {
-	border-collapse:collapse;
-	border-spacing:0;
-	border-width:1px;
-	border-style:solid;
-	border-color:#999;
-	table-layout:fixed;
-	margin-left:20%;
-	width: 60%;
-}
-.tb td{
-	font-family:Arial, sans-serif;
-	font-size:14px;
-	padding:9px 20px;
-	border-style:solid;
-	border-width:0px;
-	overflow:hidden;
-	word-break:normal;
-	border-color:#999;
-	color:#444;
-	background-color:#F7FDFA;
-}
-.tb th{
-	font-family:Arial, sans-serif;
-	font-size:14px;
-	font-weight:normal;
-	padding:9px 20px;
-	border-style:solid;
-	border-width:0px;
-	overflow:hidden;
-	word-break:normal;
-	border-color:#999;
-	color:#fff;
-	background-color:#26ADE4;
-}
-.tb .ds{
-	font-size:15px;
-	background-color:#d1fffd;
-	border-color:inherit;
-	text-align:center;
-}
-.tb .titulo{
-	font-size:16px;
-	border-color:inherit;
-	text-align:center;
-	vertical-align:top;
-}
-.tb .nivel{
-	font-size:16px;
-	background-color:#96fffb;
-	border-color:inherit;
-	text-align:center;
-	vertical-align:top;
-}
-
-/*-- media queries tabla ingles --*/
-
-@media (max-width: 1400px){
-
-.tb {
-	border-collapse:collapse;
-	border-spacing:0;
-	border-width:1px;
-	border-style:solid;
-	border-color:#999;
-	table-layout:fixed;
-	margin-left:10%;
-	width: 80%;
-}
-.tb td{
-	font-family:Arial, sans-serif;
-	font-size:14px;
-	padding:9px 20px;
-	border-style:solid;
-	border-width:0px;
-	overflow:hidden;
-	word-break:normal;
-	border-color:#999;
-	color:#444;
-	background-color:#F7FDFA;
-}
-.tb th{
-	font-family:Arial, sans-serif;
-	font-size:14px;
-	font-weight:normal;
-	padding:9px 20px;
-	border-style:solid;
-	border-width:0px;
-	overflow:hidden;
-	word-break:normal;
-	border-color:#999;
-	color:#fff;
-	background-color:#26ADE4;
-}
-.tb .ds{
-	font-size:15px;
-	background-color:#d1fffd;
-	border-color:inherit;
-	text-align:center;
-}
-.tb .titulo{
-	font-size:16px;
-	border-color:inherit;
-	text-align:center;
-	vertical-align:top;
-}
-.tb .nivel{
-	font-size:16px;
-	background-color:#96fffb;
-	border-color:inherit;
-	text-align:center;
-	vertical-align:top;
-}
-}
-
-
-
-
-
-
-
-
-
-
 
 

@@ -53,36 +53,7 @@ html{
 
 	/*-- media queries menu --*/
 	
-@media only screen and (max-width: 800px){
- 	.nav{
-	width:96.5%;
-	height: 50px;
-	font:bold 30px Arial;
-	text-align:center;
-	margin:0%;
-	border-radius: 10px;
-	}
-	.nav a{
-	display: inline-block;
-	-webkit-transition: all 0.2s ease-in;
-	-moz-transition: all 0.2s ease-in;
-	-o-transition: all 0.2s ease-in;
-	-ms-transition: all 0.2s ease-in;
-	transition: all 0.2s ease-in;
-	}
-	.nav a:hover{
-	-webkit-transform:rotate(10deg);
-	-moz-transform:rotate(10deg);
-	-o-transform:rotate(10deg);
-	-ms-transform:rotate(10deg);
-	transform:rotate(10deg);
-	}
-
-	.blue{
-	background: #36b7e5;
-	box-shadow: 0 2px 0 #3595b8;
-}
-
+@media only screen and (max-width: 1200px){
 	.nav li{
 	position:relative;
 	display:inline-block;
@@ -91,17 +62,41 @@ html{
 	text-shadow:1px 2px 4px rgba(0,0,0,.5);
 	list-style: none outside none;
 	}
-	
-	.nav a,
-	.nav a:hover{
-	color:#fff;
-	text-decoration: none;
- }
 }
  
+@media only screen and (max-width: 750px){
+	.nav li{
+	position:relative;
+	display:inline-block;
+	padding:0 5px;
+	font-size:15px;
+	text-shadow:1px 2px 4px rgba(0,0,0,.5);
+	list-style: none outside none;
+	}
+}
+ 
+@media only screen and (max-width: 550px){
+	.nav li{
+	position:relative;
+	display:inline-block;
+	padding:0 10px;
+	font-size:15px;
+	text-shadow:1px 2px 4px rgba(0,0,0,.5);
+	list-style: none outside none;
+	}
+	.nav{
+	width:97.5%;
+	height: 60%;
+	font:bold 30px Arial;
+	text-align:center;
+	margin:0%;
+	border-radius: 10px;
+}
+}
+
 /*-- portada --*/
 
-div.fondo {
+nav.fondo {
 	background: #6749de;
 	background: #e7c13c;
 	background: url(../images/banner.png) no-repeat center #4b49de;
@@ -113,16 +108,16 @@ h3.tiempo1{
 	color:white;
 }
 
-h4.backbox{
+h4.caja{
     font-family: 'Montserrat', sans-serif;
     text-transform: capitalize;
-    font-size: 2.3rem;
-    top: 16rem;
+    font-size: 300%;
+    top: 40%;
     font-weight: bold;
     color: #ffeb3b;
-    padding: 0.0625rem;
+    padding: 1%;
     line-height: 2;
-    width: 100%;
+    width: 96.5%;
     position: absolute;
     background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(40%, rgba(255, 255, 255, 0.3)), color-stop(60%, rgba(255, 255, 255, 0.3)), color-stop(100%, rgba(255, 255, 255, 0)));
     background-image: -moz-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3) 40%, rgba(255, 255, 255, 0.3) 60%, rgba(255, 255, 255, 0));
@@ -131,115 +126,70 @@ h4.backbox{
 	text-align:center;
 }
 
-/*-- sobre nosotros --*/
+/*--media queries portada --*/
 
-div.caja-sn{
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
-	margin-right: -15px;
-	margin-left: -15px;
-	padding-top: 3rem;
+@media (max-width: 800px){
+h4.caja {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    font-size: 100%;
+    top: 53%;
+    font-weight: bold;
+    color: #ffeb3b;
+    padding: 0.0625rem;
+    line-height: 2;
+    width: 98%;
+    position: absolute;
+    background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(40%, rgba(255, 255, 255, 0.3)), color-stop(60%, rgba(255, 255, 255, 0.3)), color-stop(100%, rgba(255, 255, 255, 0)));
+    background-image: -moz-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3) 40%, rgba(255, 255, 255, 0.3) 60%, rgba(255, 255, 255, 0));
+    background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3) 40%, rgba(255, 255, 255, 0.3) 60%, rgba(255, 255, 255, 0));
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3) 40%, rgba(255, 255, 255, 0.3) 60%, rgba(255, 255, 255, 0));
+}
 }
 
-div.sn {
-	text-align:center; 
-	font-size:200%; 
+@media (min-width: 600px){
+h4.caja {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    font-size: 300%;
+    top: 45%;
+    font-weight: bold;
+    color: #ffeb3b;
+    padding: 0.0625rem;
+    line-height: 2;
+    width: 98%;
+    position: absolute;
+    background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(40%, rgba(255, 255, 255, 0.3)), color-stop(60%, rgba(255, 255, 255, 0.3)), color-stop(100%, rgba(255, 255, 255, 0)));
+    background-image: -moz-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3) 40%, rgba(255, 255, 255, 0.3) 60%, rgba(255, 255, 255, 0));
+    background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3) 40%, rgba(255, 255, 255, 0.3) 60%, rgba(255, 255, 255, 0));
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3) 40%, rgba(255, 255, 255, 0.3) 60%, rgba(255, 255, 255, 0));
+}
 }
 
-div.sn1 {
-	margin-left: 15%; 
-}
-
-div.sn2 {
-	margin-left: 10%; 
-}
-
-div.sn3 {
-	margin-left: 11.5%; 
-}
-
-div.sn4 {
-	margin-left: 12%; 
-}
-
-p.snd {
-	text-align:center; 
-	font-size:100%; 
-	font-family:calibri light;
-	
-}
-
-/*-- video --*/
-
-.video{
-	width: 40%;
-	height: 30%;
-	margin: 0 auto;
-	margin-left:30%;
-}
-
-/*-- media queries sobre nosotros --*/
-
-@media (max-width: 600px) {
-div.caja-sn{
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
-	margin-right: -15px;
-	margin-left: -15px;
-	padding-top: 3rem;
-}
-
-div.sn {
-	text-align:center; 
-	font-size:200%; 
-}
-
-div.sn1 {
-	margin-left: 15%; 
-}
-
-div.sn2 {
-	margin-left: 10%; 
-}
-
-div.sn3 {
-	margin-left: 11.5%; 
-}
-
-div.sn4 {
-	margin-left: 12%; 
-}
-
-p.snd {
-	text-align:center; 
-	font-size:100%; 
-	font-family:calibri light;
-	
+@media (max-width: 318px){
+h4.caja {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    font-size: 50%;
+    top: 65%;
+    font-weight: bold;
+    color: #ffeb3b;
+    padding: 0.0625rem;
+    line-height: 2;
+    width: 98%;
+    position: absolute;
+    background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(40%, rgba(255, 255, 255, 0.3)), color-stop(60%, rgba(255, 255, 255, 0.3)), color-stop(100%, rgba(255, 255, 255, 0)));
+    background-image: -moz-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3) 40%, rgba(255, 255, 255, 0.3) 60%, rgba(255, 255, 255, 0));
+    background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3) 40%, rgba(255, 255, 255, 0.3) 60%, rgba(255, 255, 255, 0));
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3) 40%, rgba(255, 255, 255, 0.3) 60%, rgba(255, 255, 255, 0));
 }
 }
 
 /*-- Cursos --*/
 
-div.cr {
+aside.cr {
 	text-align:center; 
 	font-size:200%; 
-}
-
-div.caja-cr{
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
-	margin-right: -15px;
-	margin-left: -15px;
-	padding-top: 3rem;
 }
 
 /*-- Cursos francia--*/
@@ -270,75 +220,29 @@ img.usa{
 
 /*-- Pie de pagina --*/
 
-footer {
-	padding:1%;
-	background: #4b49de;
-}
-
-div.ft {
-	text-align:center; 
-	font-size:200%; 
-}
-
-div.ct {
-	text-align:center; 
-	font-size:200%; 
-}
-
-div.ct1 {
-	text-align:center; 
-}
-
-span.email {
-	color:black; 
-}
-
-img.ins {
-	width:3%; 
-	margin-left:42%;
-}
-
-img.yt {
-	width:3%; 
-	margin-left:3%;
-}
-
-img.tw {
-	width:3%; 
-	margin-left:3%;
-}
-
-/*-- marca --*/
-
 p.mr {
-	text-align:center; 
+	text-align:center;
+	background-color:#00FFF3;
+	width:90%;
+	margin-left:5%;
+	height:20%;
 }
 
-/*-- google-maps --*/
+/*-- boton para subir hasta arriba --*/
 
-.google-maps {
-  position: relative;
-  padding-bottom:40%;
-  overflow: hidden;
-
-
-}
-.google-maps iframe {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-
-@media (max-width: 500px) {
-.google-maps {
-  position: relative;
-  padding-bottom:40%;
-  overflow: hidden;
-
-
-}
-.google-maps iframe {
-  position: absolute;
-  width: 100%;
-  height: 100%;
+#toTop {
+    background-color: #333;
+    border-radius: 4px 4px 0 0;
+    bottom: 0;
+    color: #fff;
+    display: block;
+    height: 3%;
+    position: fixed;
+    right: 2%;
+    text-align: center;
+    text-transform: uppercase;
+    width: 2%;
+    opacity: .9;
+    z-index: 100000;
+    transition: all 1.2s ease-in-out 1s;
 }

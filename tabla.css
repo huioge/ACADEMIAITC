@@ -1,0 +1,61 @@
+/*
+	Color fondo:#632432;
+	Color header: #246355;
+	Color borde: #0F362D;
+	Color iluminado: #369681;
+*/
+body{
+	background-color: #632432;
+	font-family: Arial;
+}
+
+#main-container{
+		margin: 150px auto;
+		width: 900px;
+}
+
+table{
+	background-color: white;
+	text-align: left;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td{
+	padding: 20px;
+}
+
+thead{
+	background-color: #0486B4;
+	border-bottom: solid 5px #0F362D;
+	color: white;
+}
+#Nivel{
+	background-color: #62C2E6;
+}
+
+#Dias{
+	background-color: #D2EFFA;
+}
+
+#Horario{
+	background-color: #D2EFFA;
+}
+
+#NºHoras{
+	background-color: #D2EFFA;
+}
+
+#Precio{
+	background-color: #D2EFFA;
+}
+
+/*tr:nth-child(even){
+	background-color: #ddd;
+}
+*/
+/*tr:hover{
+	background-color: #369681;
+	color: white;
+}
+*/
