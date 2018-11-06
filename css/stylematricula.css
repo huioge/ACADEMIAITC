@@ -191,6 +191,11 @@ h4.caja {
 p.sn {
 	text-align:center; 
 	font-size:200%; 
+	background:#1ABFD0;
+	width:50%;
+	color:white;
+	margin-left:25%;
+	border-radius:50px;
 }
 
 .ig{

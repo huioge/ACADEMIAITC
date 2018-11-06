@@ -224,20 +224,26 @@ div.sn5 {
 div.sn6 {
 	margin-left: 8.5%; 
 }
-p.snd	{
+
+p.snd{
 	text-align:center; 
-	font-size:180%; 
 	font-family:calibri light;
 	margin-right:20%;
 	margin-left:20%;
+	font-size:140%;
 }
 
-p.snd1 {
+p.snd1{
 	text-align:justify; 
-	font-size:150%; 
+	font-size:140%; 
 	font-family:calibri light;
 	margin-right:15%;
 	margin-left:19%;
+}
+
+img.historia {
+	width:30%;
+	margin-left:35%;
 }
 
 /*--media queries sobre nosotros --*/
@@ -280,7 +286,7 @@ div.sn6 {
 }
 p.snd {
 	text-align:center; 
-	font-size:100%; 
+	font-size:140%; 
 	font-family:calibri light;
 }
 }
@@ -323,7 +329,7 @@ div.sn6 {
 }
 p.snd {
 	text-align:center; 
-	font-size:100%; 
+	font-size:140%; 
 	font-family:calibri light;
 }
 }
@@ -366,7 +372,7 @@ div.sn6 {
 }
 p.snd {
 	text-align:center; 
-	font-size:100%; 
+	font-size:140%; 
 	font-family:calibri light;
 }
 }
@@ -409,7 +415,7 @@ div.sn6 {
 }
 p.snd {
 	text-align:center; 
-	font-size:100%; 
+	font-size:140%; 
 	font-family:calibri light;
 }
 }
@@ -452,7 +458,7 @@ div.sn6 {
 }
 p.snd {
 	text-align:center; 
-	font-size:100%; 
+	font-size:140%; 
 	font-family:calibri light;
 }
 }
